@@ -1,0 +1,25 @@
+{
+  "name": "site3pages",
+  "version": "1.0.0",
+  "description": "site iz 3 pages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "site"
+  ],
+  "author": "Vasyan Pro <vasyanpro@mail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
